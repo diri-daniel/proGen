@@ -2,7 +2,7 @@ import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
 import '../index.css'
 import { Footer } from './footer.jsx'
-import { Main } from './main.jsx'
+import { Main } from './App.jsx'
 import { Header } from './Header.jsx'
 
 //edited import main.jsx
