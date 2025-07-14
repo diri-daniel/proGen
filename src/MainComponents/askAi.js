@@ -26,6 +26,5 @@ export const getSimplified = async (page, desc) => {
   })
 
   const response = completion.choices[0].message.content
-  console.log("AI:", response)
   return response
 }

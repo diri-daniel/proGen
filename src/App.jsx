@@ -34,7 +34,6 @@ export const Main = () => {
   const handleForm = async (formdata) => {
     setReply()
     const data = Object.fromEntries(formdata.entries())
-    console.log(data)
     setLoading(true)
     let r = await getSimplified(renPage, data["text"])
     setLoading(false)
