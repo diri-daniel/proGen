@@ -1,6 +1,6 @@
 import React from 'react'
 // import reactLogo from './assets/react.svg'
-import './main.css'
+import './App.css'
 import { groups, platforms } from './MainComponents/platforms'
 import { getSimplified } from './MainComponents/askAi'
 
