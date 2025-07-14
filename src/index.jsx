@@ -5,6 +5,8 @@ import { Footer } from './footer.jsx'
 import { Main } from './main.jsx'
 import { Header } from './Header.jsx'
 
+//edited import main.jsx
+
 createRoot(document.getElementById('root')).render(
   <StrictMode>
     <Header />
