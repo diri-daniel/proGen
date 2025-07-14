@@ -1,0 +1,73 @@
+.body {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 95%;
+    width: calc(50% * 0.9);
+}
+
+#select-software {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 30px 0;
+}
+
+#select-software > select {
+    text-align: center;
+    appearance: none;
+    width: 100%;
+    outline: none;
+}
+
+optgroup {
+    color: black;
+}
+
+.text {
+    height: 5rem;
+}
+
+button {
+    margin: 30px auto;
+    padding: 12px 16px;
+    border-radius: 8px;
+    width: 75%;
+    font-size: 1rem;
+    line-height: 1.5;
+    
+}
+
+.screen {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 95%;
+    width: calc(50% * 0.9);
+    margin: 20px 0px;
+}
+
+.screen > img {
+    width: 241.9px;
+    height: 241.9px;
+}
+
+.genbox {
+  border: 1px solid #ccc;
+  background-color: #f9f9f9;
+  padding: 12px 16px;
+  border-radius: 8px;
+  max-width: 500px;
+  max-height: 95%;
+  font-size: 16px;
+  line-height: 1.5;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
